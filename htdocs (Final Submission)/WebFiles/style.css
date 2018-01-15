@@ -1,0 +1,562 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(255, 250, 239);
+  width: 100%;
+  margin: auto;
+  width: 100%;
+}
+
+
+
+/* ANIMATED BANNER */
+header {
+  padding-top: 10px;
+  height: auto;
+  background-color: rgba(127,255,212,0.5);
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.animatedTitle {
+  color: black;
+  font-family: Ubuntu, sans-serif;
+  font-size: 60px;
+  text-align: center;
+  animation-duration: 5s;
+  animation-name: fadeIn;
+  animation-iteration-count: 1000000;
+}
+
+.animatedDescriptions {
+  text-align: center;
+}
+
+.descHeadings {
+  margin-bottom: 10px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.desc1 {
+  animation-duration: 5s;
+  animation-name: fade1;
+  animation-iteration-count: 1000000;
+  display: inline-block;
+  font-family: Ubuntu;
+  font-size: 20px;
+  margin-top: 20px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+@keyframes fade1 {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  33% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  50% {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  75% {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.desc2 {
+  animation-duration: 5s;
+  animation-name: fade2;
+  animation-iteration-count: 10000;
+  display: inline-block;
+  font-family: Ubuntu;
+  font-size: 20px;
+  margin-top: 20px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+@keyframes fade2 {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  33% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  50% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  75% {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.desc3 {
+  animation-duration: 5s;
+  animation-name: fade3;
+  animation-iteration-count: 10000;
+  display: inline-block;
+  font-family: Ubuntu;
+  font-size: 20px;
+  margin-top: 20px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+@keyframes fade3 {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  33% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  50% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  75% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.paw {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+/* NAV BAR */
+nav { /* The box around the nav bar */
+  height: auto;
+  background-color: rgb(255, 250, 239);
+  width: 100%;
+}
+
+.navList { /* The overall nav bar list */
+  height: auto;
+  padding: 22px 0px 0px 0px;
+  background-color: rgb(255, 250, 239);
+  text-align: center;
+}
+
+.NavItems { /* The individual nav bar items */
+  font-family: Ubuntu, sans-serif;
+  position: relative;
+  display: inline-block;
+  padding-left: 34px;
+  padding-right: 34px;
+  font-size: 23px;
+  font-weight: bold;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.navList a {
+  display: block;
+  padding: 5px;
+  color: black;
+  background-color: rgb(255, 250, 239);
+  text-decoration: none;
+}
+
+.navList a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+#headLogo1 {
+  width: 420px;
+  height: 280px;
+  margin: auto;
+  display: block;
+}
+
+
+
+/* MAIN HEADER */
+.mainHeader {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+#headerImg {
+  position: relative;
+  height: 700px;
+  width: 1250px;
+  margin: auto;
+  display: block;
+  opacity: 0.9;
+}
+
+#headLogo {
+  margin-top: -25px;
+  margin: auto;
+  width: 320px;
+  height: 210px;
+  position: absolute;
+  top: 400px;
+  left: 37%;
+  right: 35%;
+  opacity: 0.9;
+}
+
+#headLogo1:hover {
+  opacity: 0.8;
+}
+
+
+
+/* HOME ABOUT US */
+.aboutUsContainer {
+  margin: auto;
+  width: 100%;
+  padding-bottom: 20px;
+  height: auto;
+  background-color: rgba(211,211,211, 0.3);
+  overflow: hidden;
+}
+
+.homeHeadings {
+  font-family: Ubuntu, sans-serif;
+  font-size: 55px;
+  text-align: center;
+  color: black;
+  padding-bottom: 5px;
+  padding-top: 15px;
+}
+
+#logo {
+  width: 680px;
+  height: 430px;
+  margin: auto;
+  display: block;
+}
+
+#logo:hover {
+  opacity: 0.8;
+}
+
+
+
+/* THE CLINIC/ PHOTO ALBUM */
+.photoAlbumContainer {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 0px;
+  background-color: rgba(176,224,230,0.5);
+  padding-bottom: 20px;
+}
+
+.subHeading {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  text-align: justify;
+}
+
+.subHeading2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.photoAlbum {
+  width: 650px;
+  height: 420px;
+  margin: auto;
+}
+
+.clinicPhotos {
+  width: 650px;
+  height: 420px;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.clinicPhotos:hover {
+  opacity: 0.9;
+}
+
+
+
+/* OUR TEAM */
+.teamContainer {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: snow;
+  padding-bottom: 20px;
+}
+
+.teamBox {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.staffBox {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.staffPics {
+  padding: 10px;
+  width: 280px;
+  height: 200px;
+}
+
+.staffPics:hover {
+  opacity: 0.8;
+}
+
+.staffTitles {
+  font-family: Ubuntu, sans-serif;
+  font-size: 21px;
+  text-decoration: underline;
+}
+
+.staffDescriptionsBox {
+  width: 280px;
+  text-align: center;
+  margin-left: 9px;
+  margin-top: 12px;
+}
+
+.staffDescriptions {
+  font-family: 'Open Sans';
+  text-align: justify;
+  font-size: 18px;
+}
+
+
+
+/* SERVICES WE OFFER */ 
+.productsContainer {
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+  margin: auto;
+  margin-top: 0px;
+  padding-bottom: 30px;
+  margin-bottom: 0px;
+  background-color: rgba(152,251,152, 0.4);
+}
+
+#dropDownHead {	
+  font-family: Ubuntu, sans-serif;
+  font-size: 30px;
+}
+
+
+.dropDown {
+	text-align: center;	
+}
+
+table {	
+  width: 80%;	
+  text-align: center;
+  margin: auto;
+	
+}
+
+td, th {
+    border: 2px solid black;
+	padding: 15px;
+}
+
+th {
+  font-family: Ubuntu, sans-serif;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+td {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 19px;	
+	
+}
+
+
+
+/* ENTER DETAILS */
+.enterDetailsContainer {
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: rgba(127,255,212,0.5);
+}
+
+.inputBox {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.npcForms {
+  display: inline-block;
+}
+
+.formHeadings {
+  font-family: Ubuntu, sans-serif;
+  font-size: 20px;
+}
+
+.input {
+  width: 300px;
+  margin-bottom: 5px;
+}
+
+#registerCat {
+  display: block;
+  margin: auto;
+  width: 690px;
+  height: 450px;
+  margin-top: 20px;
+  opacity: 0.9;
+  border-radius: 7px;
+  padding-bottom: 20px;
+}
+
+#registerCat:hover {
+  opacity: 0.8;
+}
+
+textarea {
+
+height: auto;	
+	
+}
+
+
+
+/* FIND US */
+.contactContainer {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  background-color: PapayaWhip;
+  overflow: hidden;
+}
+
+.contactBox {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.contactDetailsBox {
+  display: inline-block;
+}
+
+.contactHeadings {
+  font-family: Ubuntu, sans-serif;
+  font-size: 25px;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.contactDetails {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+#locationMap {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 7px;
+}
+
+#locationMap:hover {
+  opacity: 0.8;
+}
+
+
+
+/* FOOTER */
+footer {
+  width: 100%;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background-color: rgb(255, 250, 239);
+  opacity: 0.6;
+}
+
+#footerText {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: black;
+  float: right;
+  padding-right: 20px;
+  padding-top: 22px;
+}

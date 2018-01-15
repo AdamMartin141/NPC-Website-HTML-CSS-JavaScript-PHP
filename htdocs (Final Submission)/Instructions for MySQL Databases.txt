@@ -1,0 +1,21 @@
+Welcome to my Noah's Pet Clinic Multimedia Coursework. 
+
+The website is linked to two MySQL databases, accessed from the 'Our Services' and 'Contact Us' website pages. 
+
+
+Our Services (Requirement 4):
+
+This page uses PHP code which allows you to search a database of NPC's services, using the drop down menu. Please use the 'services.csv'
+file to create this database on your server. In my code, the database is called 'npc', and the table is called 'services'.
+PHP file: process_servicesearch.php
+
+
+Contact Us (Requirement 5): 
+
+This page uses PHP code which allows you to add your contact details to NPC's database by filling in the form and clicking 'Submit Query'. 
+Therefore, the database does not need existing records for it to work. Please use the 'contact.csv' file to import the table headings and 
+some sample data. In my code, the database is called 'npc', and the table is called 'custinfo' 
+PHP file: process_insertcontactinfo.php
+
+
+Home page name: index.php
